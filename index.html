@@ -6,49 +6,53 @@
             <link href="styles/reset.css" rel="stylesheet">
             <link href="styles/general.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         </head>
 
         <body>
             <div id="container">
                 <div id="header">
-                  <u1>  
+                  <u1 id="header-list">  
                     <li><a href='https://mail.google.com/mail/?tab=wm&ogbl' id="gmail">Gmail</a></li> 
                     <li><a href="https://www.google.pt/imghp?hl=en&tab=wi&ogbl" id="images">Images</a></li>
                     <li><a href="https://www.google.pt/intl/en/about/products?tab=wh" id="apps-lind"><img src="images/google-apps-official.png"></a></li>
-                    <li><a href="https://jwern.github.io/google-homepage/#" id="sign-link">Sign in</a></li>
+                    <li><a href="https://www.google.com" id="sign-link">Sign in</a></li>
                 </u1>
                 </div>
 
                 <div class="main">
-                   <img src='images/google-logo.png' id="logo">
-                   <img src="images/icon-search.svg" id='icon-search' height="20px">
-                   <form>
-                       <input type="text" id="search-bar">
-                       <div class="input-buttons">
-                           <input type="submit" value="Google Search">
-                           <input type="submit" value="I'm Feeling Lucky">
-                       </div>
-                   </form>
-                   <div class="language-link">Google offered in:<a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">Portugês (Portugal)</a></div>
+                    <form>
+                        <img src='images/google-logo.png' id="logo">
+                        <div class='search-bar'>
+                            <i class="material-icons" id="search-icon">search</i>
+                            <input type="text" id="text-box">
+                        </div>
+                        <div class="input-buttons">
+                           <input type="submit" value="Google Search" class='search-button'>
+                           <input type="submit" value="I'm Feeling Lucky" class='search-button'>
+                        </div>
+                    </form>
+                   <div class="language-paragraph">Google offered in:<a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html" id="language-link">Portugês (Portugal)</a></div>
                 </div>
-            <div class=top-footer>
+
+                <div class=top-footer>
                 <p>Portugal</p>
-            </div>
+                </div>
                 <div class='left-footer'>
-                    <ul>
-                        <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">Advertising</a></li>
+                    <ul id="left-list">
+                        <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html" id="link-language">Advertising</a></li>
                         <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">Business</a></li>
                         <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">About</a></li>
                         <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">How Search works</a></li>
                     </ul>
                 </div>
                 <div class="right-footer">
-                        <ul>
+                        <ul id="right-list">
                             <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">Privacy</a></li>
                             <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">Terms</a></li>
                             <li class="footer-item"><a href="file:///home/awoken-coder/odin_on_rails/google-hp/google-hp-clone/index.html">Settings</a></li>
                         </ul>
-                    </div>
+                </div>
             </div>
         </body>
 
